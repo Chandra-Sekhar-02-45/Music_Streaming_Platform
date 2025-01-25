@@ -5,6 +5,7 @@ import './index.css'
 
 function App() {
   return (
+    <body>
     <nav className="navbar navbar-expand-lg bg-black bg-body-dark col-12">
       <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,6 +50,19 @@ function App() {
         </div>
       </div>
     </nav>
+    <div className='container-fluid'>
+      <div className='row'>
+        <div className='col-12'>
+          <div className='d-flex flex-row justify-content-center'>
+            <div className='d-flex flex-row justify-content-center'>
+              <h1 className='title'>Discover</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </body>
+    
   )
 }
 
