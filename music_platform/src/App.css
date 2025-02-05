@@ -4,8 +4,17 @@
   width: 50px;
   margin:auto;
 }
-.icon{
+
+.icon .icon_nav{
   font-size: 20px;
+  color: grey;
+}
+
+.icon_nav{
+  font-size: 25px;
+  color: grey;
+  text-align: center;
+  margin: 16px;
 }
 .button_prof{
  border-radius: 50%;
@@ -15,6 +24,45 @@
  width: 50px;
 }
 body{
-  background-color: grey;
+  background-color: #2f2f2f;
   color:white;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  border-radius: 25px; /* Ensures smooth connection */
+  overflow: hidden; /* Prevents any spacing issues */
+  background-color: #2f2f2f;
+  border: 1px solid black;
+  margin-left:600px;
+}
+
+.search_bar {
+  color: white;
+  background-color: #2f2f2f;
+  border: none;
+  outline: none;
+  flex: 1; 
+  height: 50px;
+  padding: 10px 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.search_icon {
+  font-size: 20px;
+  color: grey;
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }

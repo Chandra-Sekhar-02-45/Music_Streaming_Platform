@@ -17,16 +17,22 @@ function App() {
           </h1>
         </a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <div className="navbar-nav me-auto mb-2 mb-lg-1">
+          <div className="navbar-nav me-auto mb-2 mb-lg-1 d-flex flex-row justify-content-center">
             <li className="nav-item">
-              <a className="nav-link active" style={{ color: 'white' }} aria-current="page" href="#">Home</a>
+              <i className="fa-solid fa-house-user icon_nav"></i>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" style={{ color: 'white' }} aria-current="page" href="#">Library</a>
+            <i class="fa-solid fa-book-open icon_nav"></i>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" style={{ color: 'white' }} href="#">Link</a>
-            </li>
+
+            <div className="search-container ">
+                <button className="search_icon" aria-label="Search">
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input className="search_bar" type="search" placeholder="Search" aria-label="Search" />
+             </div>
+
+            
           </div>
         </div>
         <div>
@@ -34,9 +40,7 @@ function App() {
       </div>
       <div className="d-flex flex-row justify-content-center">
         <div>
-          <button className="button_prof" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <i className="fa-solid fa-magnifying-glass icon" style={{ color: 'grey' }}></i>
-          </button>
+        
         </div>
         <div>
           <button className="button_prof m-auto">
