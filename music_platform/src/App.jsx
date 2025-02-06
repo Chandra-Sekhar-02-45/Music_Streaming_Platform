@@ -17,25 +17,23 @@ function App() {
             </h1>
           </a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className="navbar-nav me-auto mb-2 mb-lg-1 d-flex flex-row justify-content-center">
-              {/* <li className="nav-item">
-                <i className="fa-solid fa-house-user icon_nav"></i>
-              </li> */}
-              <div className="search-container">
+            <div className="navbar-nav me-auto mb-2 mb-lg-1 d-flex flex-row justify-content-center" style={{ width: '100%' }}>
+              <button className="nav-link active home_but" aria-current="page">
+                   <i className="fa-solid fa-house icon_nav m-2"></i>
+              </button>
+              <div className="search-container d-flex flex-row justify-content-center">
                 <button className="search_icon d-flex justify-content-center" aria-label="Search">
                   <i className="fa-solid fa-magnifying-glass"></i>
                 </button>
                 <input className="search_bar" type="search" placeholder="What do you want to play ?" aria-label="Search" />
                 <div className="vertical-line"></div>
                 <div>
-                  <i className="fa-solid fa-book-open icon_nav"></i>
+                  <i className="fa-solid fa-book-open icon_nav m-4"></i>
                 </div>
               </div>
             </div>
           </div>
-          <div></div>
-        </div>
-        <div className="d-flex flex-row justify-content-center">
+          <div className="d-flex flex-row justify-content-center">
           <div></div>
           <div>
             <button className="button_prof m-auto">
@@ -47,6 +45,7 @@ function App() {
               <i className="fa-solid fa-user icon" style={{ color: 'grey' }}></i>
             </button>
           </div>
+        </div>
         </div>
       </nav>
       <div className='container-fluid'>
