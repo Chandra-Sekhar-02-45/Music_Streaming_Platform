@@ -22,9 +22,9 @@ function App() {
                    <i className="fa-solid fa-house icon_nav m-2"></i>
               </button>
               <div className="search-container d-flex flex-row justify-content-center">
-                <button className="search_icon d-flex justify-content-center" aria-label="Search">
-                  <i className="fa-solid fa-magnifying-glass"></i>
-                </button>
+                  <div className='search_icon d-flex justify-content-center'>
+                      <i className=" fa-solid fa-magnifying-glass"></i>
+                  </div>
                 <input className="search_bar" type="search" placeholder="What do you want to play ?" aria-label="Search" />
                 <div className="vertical-line"></div>
                 <div>
