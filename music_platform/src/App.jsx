@@ -25,7 +25,7 @@ function App() {
                 <button className="search_icon d-flex justify-content-center" aria-label="Search">
                   <i className="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <input className="search_bar" type="search" placeholder="Search" aria-label="Search" />
+                <input className="search_bar" type="search" placeholder="What do you want to play ?" aria-label="Search" />
                 <div className="vertical-line"></div>
                 <div>
                   <i className="fa-solid fa-book-open icon_nav"></i>

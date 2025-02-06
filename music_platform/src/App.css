@@ -5,8 +5,8 @@
   margin:auto;
 }
 
-.icon .icon_nav{
-  font-size: 25px;
+.icon{
+  font-size: 28px;
   color: grey;
 }
 
@@ -47,6 +47,7 @@ body{
   outline: none;
   flex: 1; 
   height: 50px;
+  width: 500px;
   padding: 10px 15px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -63,4 +64,9 @@ body{
   cursor: pointer;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+.vertical-line {
+  border-left: 1px solid grey;
+  height: 30px;
 }
