@@ -107,10 +107,11 @@ body{
 .skip{
   border-color: transparent;
   margin-left: 10px;
-  font-size: 27px;
+  font-size: 24px;
   margin: 10px;
   align-items: center;
   margin-top: 12px;
+  cursor: pointer;
 }
 .play_button:hover{
   background-color:#2f2f2f;

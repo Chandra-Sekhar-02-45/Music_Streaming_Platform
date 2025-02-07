@@ -52,13 +52,13 @@ function App() {
         <div className='row'>
           <div className='d-flex flex-row justify-content-start'>
             <div className='card_1 col-3'>
-              Content
+              Library
             </div>
             <div className='card_1 col-6'>
-              Content
+              Favouite Songs
             </div>
             <div className='card_1 col-3'>
-              Content
+              Currently Playing
             </div>
           </div>
         </div>
@@ -68,11 +68,13 @@ function App() {
            <div className='col-12'>
               <div className='footer'>
                 <div className='d-flex flex-row justify-content-center'>
+                    <i class="fa-solid fa-shuffle skip"></i>
                     <i className="fa-solid fa-backward skip" ></i>
                     <button className='play_button'>
                         <i className="fa-solid fa-play"></i>
                     </button>
                     <i className="fa-solid fa-forward skip"></i>
+                    <i className="fa-solid fa-repeat skip"></i>
                 </div>
               </div>
            </div>
