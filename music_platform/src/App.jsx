@@ -66,7 +66,15 @@ function App() {
       <div className='container-fluid'>
         <div className='row'>
            <div className='col-12'>
-
+              <div className='footer'>
+                <div className='d-flex flex-row justify-content-center'>
+                    <i className="fa-solid fa-backward skip" ></i>
+                    <button className='play_button'>
+                        <i className="fa-solid fa-play"></i>
+                    </button>
+                    <i className="fa-solid fa-forward skip"></i>
+                </div>
+              </div>
            </div>
         </div>
 
