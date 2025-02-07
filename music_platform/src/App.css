@@ -25,7 +25,7 @@
  width: 50px;
 }
 body{
-  background-color: #2f2f2f;
+  background-color:black;
   color:white;
 }
 
@@ -77,3 +77,12 @@ body{
    border-radius: 50%;
    margin-right: 4px;
 }
+.card_1 {
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  height: 81vh;
+  justify-content: space-between;
+  background-color: #2f2f2f;
+}
+

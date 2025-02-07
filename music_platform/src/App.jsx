@@ -50,14 +50,26 @@ function App() {
       </nav>
       <div className='container-fluid'>
         <div className='row'>
-          <div className='col-12'>
-            <div className='d-flex flex-row justify-content-center'>
-              <div className='d-flex flex-row justify-content-center'>
-                <h1 className='title'>Discover</h1>
-              </div>
+          <div className='d-flex flex-row justify-content-start'>
+            <div className='card_1 col-3'>
+              Content
+            </div>
+            <div className='card_1 col-6'>
+              Content
+            </div>
+            <div className='card_1 col-3'>
+              Content
             </div>
           </div>
         </div>
+      </div>
+      <div className='container-fluid'>
+        <div className='row'>
+           <div className='col-12'>
+
+           </div>
+        </div>
+
       </div>
     </div>
   )
