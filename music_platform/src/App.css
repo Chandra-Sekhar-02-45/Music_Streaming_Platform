@@ -34,7 +34,7 @@ body{
   align-items: center;
   max-width: 400px;
   border-radius: 25px;
-  overflow: hidden; /* Prevents any spacing issues */
+  overflow: hidden; 
   background-color: #2f2f2f;
   border: 1px solid black;
   
@@ -76,55 +76,96 @@ body{
    border-radius: 50%;
    margin-right: 4px;
 }
-.card_0{
-  margin-top:85px;
+.card_0 {
+  margin-top: 85px;
+  position: fixed;
+  width: 100%;
+  gap: 10px; 
 }
 .card_1 {
   border-radius: 20px;
-  margin-right: 10px;
   padding: 10px;
-  height: 100vh;
-  justify-content: space-between;
   background-color: #2f2f2f;
+  height: calc(100vh - 200px);
+  overflow-y: auto; /* Allows scrolling */
+  scrollbar-width: thin;
+  scrollbar-color: grey transparent; 
 }
+
+.card_1::-webkit-scrollbar {
+  width: 6px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Hide up and down arrows */
+.card_1::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Scrollbar thumb (hidden by default) */
+.card_1::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Show scrollbar when scrolling */
+.card_1:hover::-webkit-scrollbar,
+.card_1:active::-webkit-scrollbar {
+  opacity: 1;
+}
+
+.card_1:hover::-webkit-scrollbar-thumb,
+.card_1:active::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 
 .footer {
   background-color: black;
-  margin-top: 10px;
   color: white;
-  padding: 10px;
-  text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
+
+.footer div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .play_button {
   background-color: white;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  border-color: transparent;
-  margin-top: 4px;
-}
-.skip{
-  border-color: transparent;
-  margin-left: 10px;
-  font-size: 24px;
-  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-top: 12px;
-  cursor: pointer;
-}
-.play_button:hover{
-  background-color:#2f2f2f;
-  color: white;
+  transition: transform 0.3s ease-in-out;
 }
 
-.play_button:active {
-  background-color: #2f2f2f;
-  background-color: white;
-  color:black;
+.play_button:hover {
+  transform: scale(1.1);
+}
+
+.skip {
+  font-size: 28px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.skip:hover {
+  color: grey;
 }
 
 .navbar {
