@@ -50,9 +50,9 @@ function App() {
       </nav>
       <div className='container-fluid'>
         <div className='row'>
-          <div className='d-flex flex-row justify-content-start'>
+          <div className='d-flex flex-row justify-content-start card_0'>
             <div className='card_1 col-3'>
-              Library
+              Library   
             </div>
             <div className='card_1 col-6'>
               Favouite Songs
