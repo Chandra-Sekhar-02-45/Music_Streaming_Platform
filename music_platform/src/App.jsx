@@ -7,6 +7,7 @@ import './index.css'
 import { LandingPage } from './LandingPage'
 import { Login } from './Login'
 import { Navbar } from './Navbar'
+import { Player } from './Player'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
@@ -27,6 +28,7 @@ function App() {
       <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<Login />} />
     </Routes>
+    {!isLoggedIn && <Player />}
   </>
   )
 }
