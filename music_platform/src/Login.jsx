@@ -29,7 +29,7 @@ export const Login = () => {
               Continue With Phone Number
             </button>
           </div>
-
+          <hr style={{ borderTop: '2px solid white'}} />
           <form>
             <div className="mb-3">
               <input type="email" className="form-control" placeholder="Email Address" required />

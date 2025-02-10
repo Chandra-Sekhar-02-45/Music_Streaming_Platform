@@ -1,81 +1,7 @@
-.logo {
-    height: 60px;
-    width: 75px;
-    margin:auto;
-    margin-left:10px;
-  }
-  
-  .icon{
-    font-size: 20px;
-    color: white;
-  }
-  
-  .icon_nav{
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    margin: 10px;
-    cursor: pointer;
-  }
-  .button_prof{
-   border-radius: 50%;
-   border-color: transparent;
-   background-color: transparent;
-   height: 50px;
-   width: 50px;
-  }
+
   body{
     background-color:black;
     color:white;
-  }
-  
-  .search-container {
-    display: flex;
-    height: 50px;
-    align-items: center;
-    max-width: 400px;
-    border-radius: 25px;
-    overflow: hidden; 
-    background-color: #2f2f2f;
-    border: 1px solid black;
-    
-  }
-  
-  .search_bar {
-    color: white;
-    background-color: #2f2f2f;
-    border: none;
-    outline: none;
-    flex: 1; 
-    height: 50px;
-    width: 500px;
-    padding: 10px 15px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-  
-  .search_icon {
-    font-size: 20px;
-    color: white;
-    background-color: transparent;
-    border: none;
-    width: 50px;
-    height: 50px;
-    align-items: center;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
-  
-  
-  .vertical-line {
-    border-left: 1px solid white;
-    height: 30px;
-  }
-  
-  .home_but{
-     background-color: #2f2f2f;
-     border-radius: 50%;
-     margin-right: 4px;
   }
   .card_0 {
     margin-top: 85px;
@@ -86,7 +12,7 @@
   .card_1 {
     border-radius: 20px;
     padding: 10px;
-    background-color: #2f2f2f;
+    background-color:#121212;
     height: calc(100vh - 200px);
     overflow-y: auto; /* Allows scrolling */
     scrollbar-width: thin;
@@ -121,56 +47,71 @@
   .card_1:active::-webkit-scrollbar-thumb {
     background-color: rgba(255, 255, 255, 0.3);
   }
+
+  .selection{
+    margin-left: 7px;
+  }
+  .selection_btn {
+     background-color: white;
+     color: black;
+     font-size: 12px;
+     text-align: center;
+     margin: 3px;
+     margin-top: 10px;
+     border-radius: 30px;
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     width: auto;
+     border: none;
+     transition: background-color 0.3s, color 0.3s;
+  }
+
+  .selection_btn:hover {
+     background-color: black;
+     color: white;
+  }
   
-  
-  .footer {
+  .selection_btn:active {
+     transform: scale(0.90);
+  }
+
+  .album_fav_card {
+    display: flex;
+    align-items: center;
     background-color: black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 70px;
+    width:16vw;
+    margin: 10px;
+    margin-top: 18px;
+}
+
+.fav_albums {
+    height: 70px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.album_fav_text {
+    flex-grow: 1;
+    font-size: 18px;
     color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  
-  .footer div {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .play_button {
-    background-color: white;
+    margin-left: 13px;
+}
+.album_play {
+    font-size: 15px;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    padding: 5px;
     border: none;
-    font-size: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
     transition: transform 0.3s ease-in-out;
-  }
-  
-  .play_button:hover {
+    background-color: white;
+}
+
+.album_play:hover {
     transform: scale(1.1);
-  }
-  
-  .skip {
-    font-size: 28px;
-    cursor: pointer;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .skip:hover {
-    color: white;
-    transform: scale(1.1);
-  }
-  
-  .navbar {
-    position: fixed;
-    top: 0;
-  }
+}
