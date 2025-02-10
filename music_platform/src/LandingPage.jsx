@@ -1,5 +1,6 @@
 import React from 'react'
 import "./LandingPage.css" 
+import { Link } from 'react-router-dom'
 export const LandingPage = () => {
   return (
     <div>
@@ -38,9 +39,11 @@ export const LandingPage = () => {
           </button>
         </div>
         <div>
-          <button className="button_prof m-auto" >
-            <i className="fa-solid fa-user icon" style={{ color: 'grey' }}></i>
-          </button>
+          <Link to="/login">
+            <button className="button_prof m-auto"  >
+              <i className="fa-solid fa-user icon" style={{ color: 'grey' }}></i>
+            </button>
+          </Link> 
         </div>
       </div>
       </div>

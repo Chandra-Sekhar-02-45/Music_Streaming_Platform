@@ -8,10 +8,13 @@ import { LandingPage } from './LandingPage'
 import { Login } from './Login'
 
 function App() {
+
   return (
   <>
-      <LandingPage />
-      <Login />  
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/login" element={<Login />} />
+    </Routes>
   </>
   )
 }

@@ -1,0 +1,17 @@
+.login_page{
+    background: linear-gradient(to bottom right, #1db954, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .login_card {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
