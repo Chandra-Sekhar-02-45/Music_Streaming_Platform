@@ -7,12 +7,12 @@
   
   .icon{
     font-size: 20px;
-    color: grey;
+    color: white;
   }
   
   .icon_nav{
     font-size: 20px;
-    color: grey;
+    color: white;
     text-align: center;
     margin: 10px;
     cursor: pointer;
@@ -56,7 +56,7 @@
   
   .search_icon {
     font-size: 20px;
-    color: grey;
+    color: white;
     background-color: transparent;
     border: none;
     width: 50px;
@@ -68,7 +68,7 @@
   
   
   .vertical-line {
-    border-left: 1px solid grey;
+    border-left: 1px solid white;
     height: 30px;
   }
   
@@ -90,7 +90,7 @@
     height: calc(100vh - 200px);
     overflow-y: auto; /* Allows scrolling */
     scrollbar-width: thin;
-    scrollbar-color: grey transparent; 
+    scrollbar-color: white transparent; 
   }
   
   .card_1::-webkit-scrollbar {
@@ -166,7 +166,8 @@
   }
   
   .skip:hover {
-    color: grey;
+    color: white;
+    transform: scale(1.1);
   }
   
   .navbar {

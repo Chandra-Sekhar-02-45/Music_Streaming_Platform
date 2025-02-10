@@ -33,13 +33,13 @@ export const Navbar = () => {
       <div></div>
       <div>
         <button className="button_prof m-auto">
-          <i className="fa-solid fa-bell icon" style={{ color: 'grey' }}></i>
+          <i className="fa-solid fa-bell icon" style={{ color: 'white' }}></i>
         </button>
       </div>
       <div>
         <Link to="/login">
           <button className="button_prof m-auto"  >
-            <i className="fa-solid fa-user icon" style={{ color: 'grey' }}></i>
+            <i className="fa-solid fa-user icon" style={{ color: 'white' }}></i>
           </button>
         </Link> 
       </div>
