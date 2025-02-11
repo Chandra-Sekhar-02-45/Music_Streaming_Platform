@@ -115,3 +115,16 @@
 .album_play:hover {
     transform: scale(1.1);
 }
+
+.made_for_you_albums{
+  height:130px;
+  width:130px;
+}
+
+.made_for_you_card{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width:145px;
+    height:145px;
+}

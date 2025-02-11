@@ -1,38 +1,128 @@
-.login_card {
-  background: black;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #968686;
-  width: auto;
-  height:80vh;
-}
-.login_img_div{
-  border-radius: 10px;
-  box-shadow: 0 0 10px #968686;
-  height: 80vh;
-  size: cover;
+/* Login Page Styles */
+
+.login-container {
+  background: url('public/Icons_music_platform/login_background.png') no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
 }
 
-/* .login_back{
-  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Black-guitaer-electric-wallpaper.jpg);
-  height:100vh;
-  background-size: cover;
-} */
- 
-.login_head{
-    font-weight: bold;
+.login-card {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin-left: 300px;
+  width:550px;
+  text-align: center;
 }
-.login_page{
-    background-color: black;
-    height: 100vh;
-    width: 100vw;
-    font-family: Arial, sans-serif;
-    color: white;
-  }
-  
-.login_logo {
-   height:250px;
-   width: auto;
-   margin-left: 40px;
-  }
 
+.login-logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.login-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.login-subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.social-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.social-icon {
+  font-size: 18px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.forgot-password a {
+  color: #1db954;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  background-color: #1db954;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #17a74c;
+  transform: scale(1.05);
+}
+
+.signup-text {
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}

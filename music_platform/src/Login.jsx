@@ -4,44 +4,48 @@ import { Link } from 'react-router-dom';
 
 export const Login = () => {
   return (
-    <div className="login_back container-fluid d-flex flex-row justify-content-center align-items-center min-vh-100 login-page">
-      <div className="login_card text-center">
+    <div className="login-container d-flex justify-content-center align-items-center min-vh-100">
+      <div className="login-card text-center">
         <div className="card-body">
-          <div className="d-flex justify-content-center">
-            <img src="Icons_music_platform/icon_logo.png" alt="logo" className="login_logo" />
+          <div className="logo-container">
+            <img src="Icons_music_platform/icon_logo.png" alt="Music Platform Logo" className="login-logo" />
           </div>
-          <h1 className="mb-3 login_head">Log in to Music</h1>
-          <div>
-            <button className="form-control mb-3 login-ways d-flex flex-row" type="submit">
-              <i className="fa-brands fa-google" style={{ marginRight: '10px' }}></i>
-              Continue With Google
+          <h2 className="login-title">Welcome Back</h2>
+          <p className="login-subtitle">Log in to continue to Music</p>
+          
+          <div className="social-login">
+            <button className="social-btn google-btn" type="button">
+              <i className="fa-brands fa-google social-icon"></i> <span>Continue with Google</span>
             </button>
-            <button className="form-control mb-3 login-ways d-flex flex-row" type="submit">
-              <i className="fa-brands fa-facebook" style={{ marginRight: '10px' }}></i>
-              Continue With Facebook
+            <button className="social-btn facebook-btn" type="button">
+              <i className="fa-brands fa-facebook social-icon"></i> <span>Continue with Facebook</span>
             </button>
-            <button className="form-control mb-3 login-ways d-flex flex-row" type="submit">
-              <i className="fa-brands fa-apple" style={{ marginRight: '10px' }}></i>
-              Continue With Apple
+            <button className="social-btn apple-btn" type="button">
+              <i className="fa-brands fa-apple social-icon"></i> <span>Continue with Apple</span>
             </button>
-            <button className="form-control mb-3 login-ways d-flex flex-row" type="submit">
-              <i className="fa-solid fa-phone" style={{ marginRight: '10px' }}></i>
-              Continue With Phone Number
+            <button className="social-btn phone-btn" type="button">
+              <i className="fa-solid fa-phone social-icon"></i> <span>Continue with Phone Number</span>
             </button>
           </div>
-          <hr style={{ borderTop: '2px solid white'}} />
+          
+          <hr className="divider" />
+          
           <form>
-            <div className="mb-3">
-              <input type="email" className="form-control" placeholder="Email Address" required />
+            <div className="input-group">
+              <input type="email" className="form-input" placeholder="Email Address" required />
             </div>
-            <div className="mb-3">
-              <input type="password" className="form-control" placeholder="Password" required />
+            <div className="input-group">
+              <input type="password" className="form-input" placeholder="Password" required />
             </div>
+            <div className="forgot-password">
+              <a href="#">Forgot your password?</a>
+            </div>
+            <Link to="/">
+              <button type="submit" className="login-btn">Log In</button>
+            </Link>
           </form>
-          <Link to="/">
-            <button type="submit" className="btn btn-primary login_button w-100 mt-3">Login</button>
-          </Link>
-          <p className="mt-3 text-white-50">Don't have an account? <a href="#" className="text-white">Sign Up</a></p>
+          
+          <p className="signup-text">Don't have an account? <a href="#">Sign Up</a></p>
         </div>
       </div>
     </div>

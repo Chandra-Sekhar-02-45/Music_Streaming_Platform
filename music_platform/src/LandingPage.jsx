@@ -14,8 +14,8 @@ export const LandingPage = () => {
           <div className='card_1 col-3'>
           <h3>Library</h3>
           </div>
-          <div className='card_1 col-6 '>
-            <div className='d-flex flex-row justify-content-start selection'>
+          <div className='card_1 col-6  selection'>
+            <div className='d-flex flex-row justify-content-start'>
             <button className='selection_btn'>All</button>
             <button className='selection_btn'>Songs</button>
             <button className='selection_btn'>Podcasts</button>
@@ -83,9 +83,12 @@ export const LandingPage = () => {
                   </div>
                 </div>
             </div>
-
-
-
+            {/* <div>
+              <h1>Made For You</h1>
+              <div className='d-flex flex-row justify-content-start made_for_you_card'>
+                 <img src="public/albums/Animal.jpg" alt="Animal Album" className="made_for_you_albums d-flex justify-content-center" />
+             </div>
+            </div>  */}
           </div>
           <div className='card_1 col-3' style={{ marginRight: '100px' }}>
             <h3>Currently Playing</h3>
