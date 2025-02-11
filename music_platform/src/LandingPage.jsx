@@ -11,25 +11,41 @@ export const LandingPage = () => {
     <div className='container-fluid'>
       <div className='row'>
         <div className='d-flex flex-row justify-content-start card_0'>
-          <div className='card_1 col-3'>
-             <i className="fa-regular fa-folder-open"></i>
-             <h1>Your Library</h1>
-             <i className="fa-solid fa-plus"></i>
-             <i className="fa-solid fa-arrow-right-long"></i>
-             <div className='d-flex flex-row justify-content-start'>
-            <button className='selection_btn'>Playlist</button>
-            <button className='selection_btn'>Albums</button>
-            <button className='selection_btn'>Artists</button>
-            <button className='selection_btn'>Downloaded</button>
+
+        <div className='card_1 col-3 '>
+          <div className='library_container'>
+          <div className='d-flex flex-row justify-content-between'> 
+              <div className='d-flex flex-row justify-content-start'>
+                <i className="fa-regular fa-folder-open icon icon_nav"></i>
+                <p className='library_text'>Your Library</p>
+              </div>
+              <div className='d-flex flex-row justify-content-end'>
+                <i className="fa-solid fa-plus icon icon_nav"></i>
+                <i className="fa-solid fa-arrow-right-long icon icon_nav"></i>
+              </div>
             </div>
+            <div className='d-flex flex-row justify-content-start'>
+              <button className='selection_btn'>Playlist</button>
+              <button className='selection_btn'>Albums</button>
+              <button className='selection_btn'>Podcasts</button>
+              <button className='selection_btn'>Artists</button>
+              <button className='selection_btn'>Downloaded</button>
+            </div>
+            <div className='d-flex flex-row justify-content-end'>
+              <i className="fa-solid fa-magnifying-glass icon icon_nav"></i>
+              <p className='show-all para'>Recents <span><i className="fa-solid fa-bars icon icon_nav"></i></span></p>
+            </div>
+            
+
           </div>
+        </div>
 
           
           <div className='card_1 col-6  selection'>
             <div className='d-flex flex-row justify-content-start'>
-            <button className='selection_btn'>All</button>
-            <button className='selection_btn'>Songs</button>
-            <button className='selection_btn'>Podcasts</button>
+              <button className='selection_btn'>All</button>
+              <button className='selection_btn'>Songs</button>
+              <button className='selection_btn'>Podcasts</button>
             </div>
 
             <div className='d-flex flex-column justify-content-start '>
@@ -112,7 +128,7 @@ export const LandingPage = () => {
                 </div>
                   <div className="made-for-you-card">
                     <img src="public/albums/allTimeHindhi.jpg" alt="allTimeHindhi" className="made-for-you-album" />
-                    <p className="made-for-you-text">All Time To 50 Songs Hindi<br></br> <span >By Music</span></p>
+                    <p className="made-for-you-text">All Time Top 50 Songs Hindi<br></br> <span >By Music</span></p>
                   </div>
                   <div className="made-for-you-card">
                     <img src="public/albums/GunturKaram.jpg" alt="Guntur Karam Album" className="made-for-you-album" />
@@ -168,7 +184,7 @@ export const LandingPage = () => {
           </div>
 
         
-          <div className='card_1 col-3' style={{ marginRight: '100px' }}>
+          <div className='card_1 col-3'>
             <h3>Currently Playing</h3>
           </div>
         </div>

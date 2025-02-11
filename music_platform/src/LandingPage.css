@@ -118,6 +118,7 @@
 }
 
 /* Made For You */
+
 .made-for-you-title {
   font-size: 24px;
   padding-top: 10px;
@@ -125,7 +126,7 @@
   font-weight: bold;
 }
 
-.show-all{
+.show-all,.para{
   color: rgb(129, 123, 123);
   font-size: 15px;
   font-weight: bold;
@@ -133,6 +134,12 @@
   padding-right: 5px;
   cursor: pointer;
   margin-bottom: 5px;
+}
+
+.para{
+  text-decoration: none;
+  font-size: 18px;
+  margin-left:305px;
 }
 
 .made-for-you {
@@ -183,4 +190,19 @@
   font-weight: bold;
   color: rgb(129, 123, 123);
   white-space: normal; 
+}
+
+/* Library */
+
+.library_container{
+  align-items: center;
+  margin-top: 7px;
+}
+
+.library_text{
+  font-weight: bold;
+  margin-bottom:0px;
+  margin-top: 6px;
+  text-align: center;
+  font-size: 18px;
 }

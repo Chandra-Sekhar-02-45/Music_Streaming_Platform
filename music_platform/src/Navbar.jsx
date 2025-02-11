@@ -26,7 +26,7 @@ export const Navbar = () => {
             <input className="search_bar" type="search" placeholder="What do you want to play ?" aria-label="Search" />
             <div className="vertical-line"></div>
             <div>
-              <i className="fa-solid fa-book-open icon_nav m-4"></i>
+              <i className="fa-solid fa-layer-group icon_nav m-4"></i>
             </div>
           </div>
         </div>
