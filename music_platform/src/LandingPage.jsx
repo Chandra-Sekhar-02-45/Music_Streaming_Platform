@@ -127,8 +127,8 @@ export const LandingPage = () => {
                     <p className="made-for-you-text">Devara<br></br> <span >By Anirudh</span> </p>
                 </div>
                   <div className="made-for-you-card">
-                    <img src="public/albums/allTimeHindhi.jpg" alt="allTimeHindhi" className="made-for-you-album" />
-                    <p className="made-for-you-text">All Time Top 50 Songs Hindi<br></br> <span >By Music</span></p>
+                    <img src="public/albums/salar.jpg" alt="allTimeHindhi" className="made-for-you-album" />
+                    <p className="made-for-you-text">Salaar Pt. 1 - Ceasefire<br></br> <span >By Ravi Basrur</span></p>
                   </div>
                   <div className="made-for-you-card">
                     <img src="public/albums/GunturKaram.jpg" alt="Guntur Karam Album" className="made-for-you-album" />
@@ -153,6 +153,10 @@ export const LandingPage = () => {
               <div className="made-for-you">
                 <div className="made-for-you-container">
                 <div className="made-for-you-card">
+                    <img src="public/albums/allTimeHindhi.jpg" alt="allTimeHindhi" className="made-for-you-album" />
+                    <p className="made-for-you-text">All Time To 50 Songs Hindi<br></br> <span >By Music</span></p>
+                  </div>
+                <div className="made-for-you-card">
                     <img src="public/albums/GunturKaram.jpg" alt="Guntur Karam Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Guntur Kaaram<br></br> <span >By S. Thaman</span> </p>
                   </div>
@@ -170,10 +174,6 @@ export const LandingPage = () => {
                     <p className="made-for-you-text">Justin Bieber My World 2.0<br></br><span >By Music</span> </p>
                   </div>
                   <div className="made-for-you-card">
-                    <img src="public/albums/allTimeHindhi.jpg" alt="allTimeHindhi" className="made-for-you-album" />
-                    <p className="made-for-you-text">All Time To 50 Songs Hindi<br></br> <span >By Music</span></p>
-                  </div>
-                  <div className="made-for-you-card">
                     <img src="public/albums/Animal-2.jpg" alt="Animal Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Animal ( Original Motion Picture Soundtrack ) . . .</p>
                   </div>
@@ -184,9 +184,40 @@ export const LandingPage = () => {
           </div>
 
         
-          <div className='card_1 col-3'>
-            <h3>Currently Playing</h3>
-          </div>
+          <div className='card_1 col-3 currently_playing'>
+  <div className='currently_playing_container'>
+    <h4 className='library_text'>Salaar</h4>
+    <div className='icon_group'>
+      <i className="fa-solid fa-ellipsis options_icon" title="More options"></i>
+      <i className="fa-solid fa-x close_icon" title="Close"></i>
+    </div>
+  </div>
+
+  <img className="currently_album" src="/public/albums/salar.jpg" alt="Salaar Album Cover" />
+
+  <div className='track_details'>
+    <div className="song_info">
+      <h4 className='track_title'>Varadha's One Man Army</h4>
+    </div>
+    <p className='artist_name'>Ravi Basrur</p>
+  </div>
+
+  <div className='credits_section'>
+    <h4 className='credits_title'>Credits</h4>
+    <div className='credits_content'>
+      <div className='credits_item d-flex flex-column justify-content-start'>
+        <div className='d-flex flex-row justify-content-between align-items-center'>
+          <h3 className='artist_name'>Ravi Basrur</h3>
+          <p className='show-all'>Show all</p>
+        </div>
+        <h4 className='role'>Main Artist, Composer</h4>
+        <button className='follow_button'>Follow</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
         </div>
       </div>
     </div>
