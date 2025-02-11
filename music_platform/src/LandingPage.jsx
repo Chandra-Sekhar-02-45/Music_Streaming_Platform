@@ -13,7 +13,7 @@ export const LandingPage = () => {
         <div className='d-flex flex-row justify-content-start card_0'>
           <div className='card_1 col-3'>
              <i className="fa-regular fa-folder-open"></i>
-             <h1>Your Lirary</h1>
+             <h1>Your Library</h1>
              <i className="fa-solid fa-plus"></i>
              <i className="fa-solid fa-arrow-right-long"></i>
              <div className='d-flex flex-row justify-content-start'>
@@ -23,6 +23,8 @@ export const LandingPage = () => {
             <button className='selection_btn'>Downloaded</button>
             </div>
           </div>
+
+          
           <div className='card_1 col-6  selection'>
             <div className='d-flex flex-row justify-content-start'>
             <button className='selection_btn'>All</button>
@@ -163,8 +165,9 @@ export const LandingPage = () => {
                 </div>
               </div>
             </div>
-          
           </div>
+
+        
           <div className='card_1 col-3' style={{ marginRight: '100px' }}>
             <h3>Currently Playing</h3>
           </div>
