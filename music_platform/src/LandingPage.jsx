@@ -12,7 +12,16 @@ export const LandingPage = () => {
       <div className='row'>
         <div className='d-flex flex-row justify-content-start card_0'>
           <div className='card_1 col-3'>
-          <h3>Library</h3>
+             <i className="fa-regular fa-folder-open"></i>
+             <h1>Your Lirary</h1>
+             <i className="fa-solid fa-plus"></i>
+             <i className="fa-solid fa-arrow-right-long"></i>
+             <div className='d-flex flex-row justify-content-start'>
+            <button className='selection_btn'>Playlist</button>
+            <button className='selection_btn'>Albums</button>
+            <button className='selection_btn'>Artists</button>
+            <button className='selection_btn'>Downloaded</button>
+            </div>
           </div>
           <div className='card_1 col-6  selection'>
             <div className='d-flex flex-row justify-content-start'>
