@@ -11,42 +11,42 @@
   }
   .card_1 {
     border-radius: 20px;
-    padding: 10px;
-    background-color:#121212;
+    margin-left: 0px !important;
+    padding: 7px;
+    background-color: #121212;
     height: calc(100vh - 200px);
-    overflow-y: auto; /* Allows scrolling */
+    overflow-y: auto;
     scrollbar-width: thin;
-    scrollbar-color: white transparent; 
-  }
-  
-  .card_1::-webkit-scrollbar {
-    width: 6px;
+    scrollbar-color: transparent transparent; /* Initially hidden */
+    transition: scrollbar-color 0.3s ease-in-out;
+}
+
+/* Hide scrollbar by default */
+.card_1::-webkit-scrollbar {
+    width: 8px; /* Keeps it minimal */
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  /* Hide up and down arrows */
-  .card_1::-webkit-scrollbar-button {
-    display: none;
-  }
-  
-  /* Scrollbar thumb (hidden by default) */
-  .card_1::-webkit-scrollbar-thumb {
+}
+
+/* Hide scrollbar thumb initially */
+.card_1::-webkit-scrollbar-thumb {
     background-color: transparent;
     border-radius: 10px;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  /* Show scrollbar when scrolling */
-  .card_1:hover::-webkit-scrollbar,
-  .card_1:active::-webkit-scrollbar {
+}
+
+/* Show scrollbar when interacting */
+.card_1:hover::-webkit-scrollbar,
+.card_1:focus-within::-webkit-scrollbar,
+.card_1:active::-webkit-scrollbar {
     opacity: 1;
-  }
-  
-  .card_1:hover::-webkit-scrollbar-thumb,
-  .card_1:active::-webkit-scrollbar-thumb {
+}
+
+/* Show scrollbar thumb only when scrolling */
+.card_1:hover::-webkit-scrollbar-thumb,
+.card_1:focus-within::-webkit-scrollbar-thumb,
+.card_1:active::-webkit-scrollbar-thumb {
     background-color: rgba(255, 255, 255, 0.3);
-  }
+}
 
   .selection{
     margin-left: 7px;
@@ -91,7 +91,8 @@
 .fav_albums {
     height: 70px;
     width: 50px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .album_fav_text {
@@ -116,15 +117,70 @@
     transform: scale(1.1);
 }
 
-.made_for_you_albums{
-  height:130px;
-  width:130px;
+/* Made For You */
+.made-for-you-title {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-left:10px;
+  font-weight: bold;
 }
 
-.made_for_you_card{
-    display: flex;
-    align-items: center;
-    background-color: black;
-    width:145px;
-    height:145px;
+.show-all{
+  color: rgb(129, 123, 123);
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-right: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.made-for-you {
+  color: white;
+  overflow-x: auto; 
+  white-space: nowrap; 
+  scrollbar-width: none; 
+  margin-bottom: 10px;
+}
+
+.made-for-you::-webkit-scrollbar {
+  display: none; 
+}
+
+.made-for-you-container {
+  display: inline-flex; 
+  gap: 5px;
+}
+
+.made-for-you-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 170px;
+  height: 220px;
+  border-radius: 12px;
+  padding: 15px;
+  transition: background 0.3s ease; 
+  box-sizing: border-box; 
+}
+
+.made-for-you-card:hover {
+  background-color: #303030; 
+  color:white;
+}
+
+.made-for-you-album {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.made-for-you-text {
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(129, 123, 123);
+  white-space: normal; 
 }
