@@ -14,6 +14,7 @@ export const LandingPage = () => {
 
         <div className='card_1 col-3 '>
           <div className='library_container'>
+
           <div className='d-flex flex-row justify-content-between'> 
               <div className='d-flex flex-row justify-content-start'>
                 <i className="fa-regular fa-folder-open icon icon_nav"></i>
@@ -21,9 +22,10 @@ export const LandingPage = () => {
               </div>
               <div className='d-flex flex-row justify-content-end'>
                 <i className="fa-solid fa-plus icon icon_nav"></i>
-                <i className="fa-solid fa-arrow-right-long icon icon_nav"></i>
+                <i className="fa-solid fa-arrow-right icon icon_nav"></i>
               </div>
             </div>
+
             <div className='d-flex flex-row justify-content-start'>
               <button className='selection_btn'>Playlist</button>
               <button className='selection_btn'>Albums</button>
@@ -31,11 +33,17 @@ export const LandingPage = () => {
               <button className='selection_btn'>Artists</button>
               <button className='selection_btn'>Downloaded</button>
             </div>
+
             <div className='d-flex flex-row justify-content-end'>
               <i className="fa-solid fa-magnifying-glass icon icon_nav"></i>
               <p className='show-all para'>Recents <span><i className="fa-solid fa-bars icon icon_nav"></i></span></p>
             </div>
             
+            <div className="play_list">
+              <div className='play_list_albums'>
+
+              </div>
+            </div>
 
           </div>
         </div>
@@ -204,51 +212,44 @@ export const LandingPage = () => {
                 <p className='artist_name'>Ravi Basrur</p>
               </div>
               </div>
-              <div className='credits_section'>
-  <h4 className='credits_title'>Credits</h4>
-  <div className='credits_content'>
-    <div className='credits_item d-flex flex-column justify-content-start'>
-      <div className='d-flex flex-row justify-content-between align-items-center'>
-        <h3 className='artist_name'>Ravi Basrur</h3>
-        <p className='show-all'>Show all</p>
-      </div>
-      <h4 className='role'>Main Artist, Composer</h4>
-      <button className='follow_button'>Follow</button>
-    </div>
-  </div>
-</div>
 
-<div className='queue_section'>
-  <h4 className='queue_title'>Queue</h4>
-  <div className='queue_content'>
-    <div className='queue_item d-flex flex-row justify-content-between align-items-center'>
-      <div className='queue_info'>
-        <h4 className='queue_track_title'>Adiga Adiga - Ninnu Kori</h4>
-        <p className='queue_artist_name'>Sid Sriram</p>
-      </div>
-      <i class="fa-solid fa-minus queue_options_icon" title="More options"></i>
-    </div>
-    <div className='queue_item d-flex flex-row justify-content-between align-items-center'>
-    <div className='queue_info'>
-        <h4 className='queue_track_title'>Rock On Bro - Janatha Garage</h4>
-        <p className='queue_artist_name'>Ragu Dixit</p>
-      </div>
-      <i class="fa-solid fa-minus queue_options_icon" title="More options"></i>
-    </div>
-  </div>
-</div>
+              <div className='credits_section'>
+                  <h4 className='credits_title'>Credits</h4>
+                  <div className='credits_content'>
+                    <div className='credits_item d-flex flex-column justify-content-start'>
+                      <div className='d-flex flex-row justify-content-between align-items-center'>
+                        <h3 className='artist_name'>Ravi Basrur</h3>
+                        <p className='show-all'>Show all</p>
+                      </div>
+                      <h4 className='role'>Main Artist, Composer</h4>
+                      <button className='follow_button'>Follow</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='queue_section'>
+                  <h4 className='queue_title'>Queue</h4>
+                  <div className='queue_content'>
+                    <div className='queue_item d-flex flex-row justify-content-between align-items-center'>
+                      <div className='queue_info'>
+                        <h4 className='queue_track_title'>Adiga Adiga - Ninnu Kori</h4>
+                        <p className='queue_artist_name'>Sid Sriram</p>
+                      </div>
+                      <i class="fa-solid fa-minus queue_options_icon" title="More options"></i>
+                    </div>
+                    <div className='queue_item d-flex flex-row justify-content-between align-items-center'>
+                    <div className='queue_info'>
+                        <h4 className='queue_track_title'>Rock On Bro - Janatha Garage</h4>
+                        <p className='queue_artist_name'>Ragu Dixit</p>
+                      </div>
+                      <i class="fa-solid fa-minus queue_options_icon" title="More options"></i>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
 
-
-
             </div>
-
-           
-           
-
-
-
         </div>
       </div>
     </div>
