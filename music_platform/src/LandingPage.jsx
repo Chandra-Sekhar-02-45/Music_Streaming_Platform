@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 export const LandingPage = () => {
 
-  const [play, setPlay] = useState(true)
 
   return (
     <div>
@@ -38,24 +37,126 @@ export const LandingPage = () => {
               <i className="fa-solid fa-magnifying-glass icon icon_nav"></i>
               <p className='show-all para'>Recents <span><i className="fa-solid fa-bars icon icon_nav"></i></span></p>
             </div>
-            
-            <div className="play_list_card">
-              <div className='queue_item'>
+
+            <div>
+              <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
                     <img src='public/Icons_music_platform/likedalbum.png' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Liked Songs</h4>
                       <p className='role play_list_album_para'>
                         <span><i className="fa-solid fa-thumbtack playlist_pin" ></i></span>
-                        Playlist 
-                        <span style={{ fontSize: "18px", fontWeight: "bold" , margin : '3px' }}>•</span>
-
-                         100 songs</p>
+                        Playlist • 100 songs
+                      </p>
+                   </div>
+                </div>
+              </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/allTimeHindhi.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>All Time Top 50</h4>
+                      <p className='role play_list_album_para'>
+                        <span><i className="fa-solid fa-thumbtack playlist_pin" ></i></span>
+                        Playlist • You
+                      </p>
                    </div>
                 </div>
               </div>
 
-            </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/Devara.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Devara</h4>
+                      <p className='role play_list_album_para'>
+                        Album • Anirudh Ravichander
+                      </p>
+                   </div>
+                </div>
+              </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/maatavinali.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Hari Hara Veera Mallu</h4>
+                      <p className='role play_list_album_para'>
+                        EP • M. M. Keeravaani
+                      </p>
+                   </div>
+                </div>
+              </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/salar.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Saalar</h4>
+                      <p className='role play_list_album_para'>
+                        Single • Ravi Basrur
+                      </p>
+                   </div>
+                </div>
+              </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/pushpa.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Pushpa</h4>
+                      <p className='role play_list_album_para'>
+                        EP • Devi Sri Prasad
+                      </p>
+                   </div>
+                </div>
+              </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/jersy.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Jersey</h4>
+                      <p className='role play_list_album_para'>
+                        Single • Anirudh Ravichander
+                      </p>
+                   </div>
+                </div>
+              </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/orange.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Orange</h4>
+                      <p className='role play_list_album_para'>
+                        Album • Harris Jayaraj
+                      </p>
+                   </div>
+                </div>
+              </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/Animal-2.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Animal</h4>
+                      <p className='role play_list_album_para'>
+                        EP • Manan Bhardwaj
+                      </p>
+                   </div>
+                </div>
+              </div>
+              <div className='play_list_card'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/albums/maharshi.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Maharshi</h4>
+                      <p className='role play_list_album_para'>
+                        EP • Devi Sri Prasad
+                      </p>
+                   </div>
+                </div>
+              </div>
+
+              </div>
+
+
+
 
           </div>
         </div>
@@ -118,14 +219,14 @@ export const LandingPage = () => {
                     </div>
                   </div>
 
-                  <div className="album_fav_card" style={{ marginTop: '2px' }} onMouseEnter={() => setPlay(true)} onMouseLeave={() => setPlay(false)} >
+                  <div className="album_fav_card" style={{ marginTop: '2px' }}  >
                       <img src="public/albums/Animal.jpg" alt="Animal Album" className="fav_albums" />
                     <h3 className="album_fav_text">Animal Telugu</h3>
                     <div className="justify-content-center">
                       {
-                        play ? <button className="album_play">
+                        <button className="album_play">
                           <i className="fa-solid fa-play"></i>
-                        </button> : null
+                        </button> 
                       }
                     </div>
                   </div>

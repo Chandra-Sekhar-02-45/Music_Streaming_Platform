@@ -419,6 +419,7 @@
 .play_list_album_para{
    font-size: 15px;
    margin-left:0px;
+   margin-bottom: 0px;
 }
 
 .playlist_pin{
@@ -427,3 +428,14 @@
     color: #1ed760 ;
     margin-right : 10px;
 }
+
+.play_list_card {
+  padding: 8px ;
+  padding-bottom: 11px;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+.play_list_card:hover {
+  background: rgba(48, 48, 48, 0.8);
+} 
