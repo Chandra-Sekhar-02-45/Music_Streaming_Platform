@@ -5,6 +5,11 @@
     margin-left:10px;
   }
   
+  .navbar {
+    position: fixed;
+    top: 0;
+  }
+  
   .icon{
     font-size: 20px;
     color: white;
