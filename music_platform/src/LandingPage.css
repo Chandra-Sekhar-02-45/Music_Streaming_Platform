@@ -401,9 +401,32 @@
   font-size: 18px;
 }
 
-.play_list{
-  
+.play_list_card{
+   
 }
 .play_list_albums{
-  
+  height:60px;
+  width:60px;
+  border-radius: 7px;
+}
+
+.play_list_album_details{
+  margin-left:10px;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.play_list_album_title{
+  font-size: 20px;
+}
+.play_list_album_para{
+   font-size: 15px;
+   margin-left:0px;
+}
+
+.playlist_pin{
+  font-size : 12px;
+    transform: rotate(30deg) ; 
+    color: #1ed760 ;
+    margin-right : 10px;
 }

@@ -39,10 +39,22 @@ export const LandingPage = () => {
               <p className='show-all para'>Recents <span><i className="fa-solid fa-bars icon icon_nav"></i></span></p>
             </div>
             
-            <div className="play_list">
-              <div className='play_list_albums'>
+            <div className="play_list_card">
+              <div className='queue_item'>
+                <div className='d-flex flex-row justify-content-start'>
+                    <img src='public/Icons_music_platform/likedalbum.png' alt='Liked Album' className='play_list_albums'/>
+                    <div className="play_list_album_details">
+                      <h4 className='artist_name play_list_album_title'>Liked Songs</h4>
+                      <p className='role play_list_album_para'>
+                        <span><i className="fa-solid fa-thumbtack playlist_pin" ></i></span>
+                        Playlist 
+                        <span style={{ fontSize: "18px", fontWeight: "bold" , margin : '3px' }}>•</span>
 
+                         100 songs</p>
+                   </div>
+                </div>
               </div>
+
             </div>
 
           </div>
