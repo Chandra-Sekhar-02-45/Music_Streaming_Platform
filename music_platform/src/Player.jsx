@@ -8,7 +8,7 @@ export const Player = () => {
          <div className='col-12'>
  
             <div className='footer'>
-                <div className='play_list_card d-flex flex-row justify-content-start'>
+                {/* <div className='play_list_card d-flex flex-row justify-content-start'>
                   <img src='public/albums/maharshi.jpg' alt='Liked Album' className='play_list_albums' />
                   <div className="play_list_album_details">
                     <h4 className='artist_name play_list_album_title'>Choti Baatein</h4>
@@ -16,7 +16,7 @@ export const Player = () => {
                       EP • Devi Sri Prasad
                     </p>
                   </div>
-                </div>
+                </div> */}
               <div className='d-flex flex-row justify-content-center '>
                   <i className="fa-solid fa-shuffle skip"></i>
                   <i className="fa-solid fa-backward skip" ></i>
@@ -31,12 +31,12 @@ export const Player = () => {
                   <input type="range" className="progress-bar" min="0" max="100" value="0" />
                   <span className='time total-time'>4:25</span>
              </div>
-             <div className='d-flex flex-row justify-content-end align-items-center'>
+             {/* <div className='d-flex flex-row justify-content-end align-items-center'>
                   <i className="fa-solid fa-volume-high skip"></i>
                   <div className='d-flex flex-row align-items-center'>
                       <i className="fa-solid fa-list-ul skip"></i>
                   </div>
-              </div>
+              </div> */}
             </div>
 
 
