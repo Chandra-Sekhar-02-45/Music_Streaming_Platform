@@ -41,7 +41,7 @@ export const LandingPage = () => {
             <div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/Icons_music_platform/likedalbum.png' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/Icons_music_platform/likedalbum.png' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Liked Songs</h4>
                       <p className='role play_list_album_para'>
@@ -53,7 +53,7 @@ export const LandingPage = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/allTimeHindhi.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/allTimeHindhi.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>All Time Top 50</h4>
                       <p className='role play_list_album_para'>
@@ -66,7 +66,7 @@ export const LandingPage = () => {
 
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/Devara.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/Devara.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Devara</h4>
                       <p className='role play_list_album_para'>
@@ -77,7 +77,7 @@ export const LandingPage = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/maatavinali.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/maatavinali.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Hari Hara Veera Mallu</h4>
                       <p className='role play_list_album_para'>
@@ -88,7 +88,7 @@ export const LandingPage = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/salar.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/salar.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Saalar</h4>
                       <p className='role play_list_album_para'>
@@ -99,7 +99,7 @@ export const LandingPage = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/pushpa.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/pushpa.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Pushpa</h4>
                       <p className='role play_list_album_para'>
@@ -110,7 +110,7 @@ export const LandingPage = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/jersy.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/jersy.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Jersey</h4>
                       <p className='role play_list_album_para'>
@@ -121,7 +121,7 @@ export const LandingPage = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/orange.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/orange.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Orange</h4>
                       <p className='role play_list_album_para'>
@@ -132,7 +132,7 @@ export const LandingPage = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/Animal-2.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/Animal-2.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Animal</h4>
                       <p className='role play_list_album_para'>
@@ -143,7 +143,7 @@ export const LandingPage = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='public/albums/maharshi.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src='/albums/maharshi.jpg' alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Maharshi</h4>
                       <p className='role play_list_album_para'>
@@ -172,7 +172,7 @@ export const LandingPage = () => {
             <div className='d-flex flex-column justify-content-start '>
                 <div className='d-flex flex-row justify-content-center'>
                   <div className="album_fav_card">
-                      <img src="public/albums/Magadheera.jpg" alt="Magadheera Album" className="fav_albums" />
+                      <img src="/albums/Magadheera.jpg" alt="Magadheera Album" className="fav_albums" />
                     <h3 className="album_fav_text">Magadheera</h3>
                     <div className="justify-content-center">
                         <button className="album_play">
@@ -181,7 +181,7 @@ export const LandingPage = () => {
                     </div>
                   </div>
                   <div className="album_fav_card">
-                      <img src="public/albums/Alavikuntapuram lo.jpg" alt="Alavikuntapuram Lo" className="fav_albums" />
+                      <img src="/albums/Alavikuntapuram lo.jpg" alt="Alavikuntapuram Lo" className="fav_albums" />
                     <h3 className="album_fav_text">Alavikuntapuram Lo</h3>
                     <div className="justify-content-center">
                         <button className="album_play">
@@ -190,7 +190,7 @@ export const LandingPage = () => {
                     </div>
                   </div>
                   <div className="album_fav_card">
-                      <img src="public/albums/Avara.jpg" alt="Avara" className="fav_albums" />
+                      <img src="/albums/Avara.jpg" alt="Avara" className="fav_albums" />
                     <h3 className="album_fav_text">Avara</h3>
                     <div className="justify-content-center">
                         <button className="album_play">
@@ -201,7 +201,7 @@ export const LandingPage = () => {
                 </div>
                 <div className='d-flex flex-row justify-content-center' >
                   <div className="album_fav_card" style={{ marginTop: '2px' }}  >
-                      <img src="public/albums/ZinNaMilDo.jpg" alt="Zindhaghi Dhobar Nahimilega" className="fav_albums" />
+                      <img src="/albums/ZinNaMilDo.jpg" alt="Zindhaghi Dhobar Nahimilega" className="fav_albums" />
                     <h3 className="album_fav_text">Zindagi Na Milegi Dobara</h3>
                     <div className="justify-content-center">
                         <button className="album_play">
@@ -210,7 +210,7 @@ export const LandingPage = () => {
                     </div>
                   </div>
                   <div className="album_fav_card" style={{ marginTop: '2px' }} >
-                      <img src="public/albums/NaaPreuSurya.jpg" alt="Na Peru Surya" className="fav_albums" />
+                      <img src="/albums/NaaPreuSurya.jpg" alt="Na Peru Surya" className="fav_albums" />
                     <h3 className="album_fav_text">Na Peru Surya</h3>
                     <div className="justify-content-center">
                         <button className="album_play">
@@ -220,7 +220,7 @@ export const LandingPage = () => {
                   </div>
 
                   <div className="album_fav_card" style={{ marginTop: '2px' }}  >
-                      <img src="public/albums/Animal.jpg" alt="Animal Album" className="fav_albums" />
+                      <img src="/albums/Animal.jpg" alt="Animal Album" className="fav_albums" />
                     <h3 className="album_fav_text">Animal Telugu</h3>
                     <div className="justify-content-center">
                       {
@@ -240,28 +240,28 @@ export const LandingPage = () => {
               <div className="made-for-you">
                 <div className="made-for-you-container">
                 <div className="made-for-you-card">
-                    <img src="public/albums/hiiNana.jpg" alt="Hi Nana" className="made-for-you-album" />
+                    <img src="/albums/hiiNana.jpg" alt="Hi Nana" className="made-for-you-album" />
                     <p className="made-for-you-text">Hi Nana<br></br> <span >By Hesham Abdul Wahab</span> </p>
                 </div>
                 <div className="made-for-you-card">
-                    <img src="public/albums/Devara.jpg" alt="Devara Album" className="made-for-you-album" />
+                    <img src="/albums/Devara.jpg" alt="Devara Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Devara<br></br> <span >By Anirudh</span> </p>
                 </div>
                   <div className="made-for-you-card">
-                    <img src="public/albums/salar.jpg" alt="allTimeHindhi" className="made-for-you-album" />
+                    <img src="/albums/salar.jpg" alt="allTimeHindhi" className="made-for-you-album" />
                     <p className="made-for-you-text">Salaar Pt. 1 - Ceasefire<br></br> <span >By Ravi Basrur</span></p>
                   </div>
                   <div className="made-for-you-card">
-                    <img src="public/albums/GunturKaram.jpg" alt="Guntur Karam Album" className="made-for-you-album" />
+                    <img src="/albums/GunturKaram.jpg" alt="Guntur Karam Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Guntur Kaaram<br></br> <span >By S. Thaman</span> </p>
                   </div>
                   <div className="made-for-you-card">
-                    <img src="public/albums/Animal-2.jpg" alt="Animal Album" className="made-for-you-album" />
+                    <img src="/albums/Animal-2.jpg" alt="Animal Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Animal ( Original Motion Picture Soundtrack ) . . .</p>
                   </div>
 
                   <div className="made-for-you-card">
-                    <img src="public/albums/justinBieber.jpg" alt="Another Album" className="made-for-you-album" />
+                    <img src="/albums/justinBieber.jpg" alt="Another Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Justin Bieber My World 2.0<br></br><span >By Music</span> </p>
                   </div>
                 </div>
@@ -274,28 +274,28 @@ export const LandingPage = () => {
               <div className="made-for-you">
                 <div className="made-for-you-container">
                 <div className="made-for-you-card">
-                    <img src="public/albums/allTimeHindhi.jpg" alt="allTimeHindhi" className="made-for-you-album" />
+                    <img src="/albums/allTimeHindhi.jpg" alt="allTimeHindhi" className="made-for-you-album" />
                     <p className="made-for-you-text">All Time To 50 Songs Hindi<br></br> <span >By Music</span></p>
                   </div>
                 <div className="made-for-you-card">
-                    <img src="public/albums/GunturKaram.jpg" alt="Guntur Karam Album" className="made-for-you-album" />
+                    <img src="/albums/GunturKaram.jpg" alt="Guntur Karam Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Guntur Kaaram<br></br> <span >By S. Thaman</span> </p>
                   </div>
                 <div className="made-for-you-card">
-                    <img src="public/albums/hiiNana.jpg" alt="Hi Nana" className="made-for-you-album" />
+                    <img src="/albums/hiiNana.jpg" alt="Hi Nana" className="made-for-you-album" />
                     <p className="made-for-you-text">Hi Nana<br></br> <span >By Hesham Abdul Wahab</span> </p>
                 </div>
                 <div className="made-for-you-card">
-                    <img src="public/albums/Devara.jpg" alt="Devara Album" className="made-for-you-album" />
+                    <img src="/albums/Devara.jpg" alt="Devara Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Devara<br></br> <span >By Anirudh</span> </p>
                 </div>
 
                 <div className="made-for-you-card">
-                    <img src="public/albums/justinBieber.jpg" alt="Another Album" className="made-for-you-album" />
+                    <img src="/albums/justinBieber.jpg" alt="Another Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Justin Bieber My World 2.0<br></br><span >By Music</span> </p>
                   </div>
                   <div className="made-for-you-card">
-                    <img src="public/albums/Animal-2.jpg" alt="Animal Album" className="made-for-you-album" />
+                    <img src="/albums/Animal-2.jpg" alt="Animal Album" className="made-for-you-album" />
                     <p className="made-for-you-text">Animal ( Original Motion Picture Soundtrack ) . . .</p>
                   </div>
 
@@ -316,7 +316,7 @@ export const LandingPage = () => {
                   </div>
                 </div>
                 <div >
-                  <img src="/public/albums/salar.jpg" alt="Salaar Album Cover" className="currently_album" />
+                  <img src="//albums/salar.jpg" alt="Salaar Album Cover" className="currently_album" />
                 </div>
                 <div className='track_details'>
                 <div className="song_info">
