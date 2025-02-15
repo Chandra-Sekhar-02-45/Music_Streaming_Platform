@@ -40,7 +40,7 @@ export const Login = () => {
             <div className="forgot-password">
               <a href="#">Forgot your password?</a>
             </div>
-            <Link to="/">
+            <Link to="/home">
               <button type="submit" className="login-btn">Log In</button>
             </Link>
           </form>
