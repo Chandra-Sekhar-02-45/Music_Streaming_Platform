@@ -316,7 +316,7 @@ export const LandingPage = () => {
                   </div>
                 </div>
                 <div >
-                  <img src="//albums/salar.jpg" alt="Salaar Album Cover" className="currently_album" />
+                  <img src="/albums/salar.jpg" alt="Salaar Album Cover" className="currently_album" />
                 </div>
                 <div className='track_details'>
                 <div className="song_info">

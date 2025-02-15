@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import React from 'react'
-import {Routes, Route, useLocation} from 'react-router-dom'
+import {Routes, Route, useLocation, Navigate} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import './index.css'
@@ -25,8 +25,9 @@ function App() {
   <>
   {!isLoggedIn && <Navbar />}
     <Routes>
-      <Route path="/" element={<LandingPage />} />
+      <Route path="/home" element={<LandingPage />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/" element = {<Navigate to={"/login"}></Navigate>}></Route>
     </Routes>
     {!isLoggedIn && <Player />}
   </>
