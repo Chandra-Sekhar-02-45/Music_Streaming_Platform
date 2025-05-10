@@ -12,7 +12,7 @@ export const Login = () => {
           </div>
           <h2 className="login-title">Welcome Back</h2>
           <p className="login-subtitle">Log in to continue to Music</p>
-          
+
           <div className="social-login">
             <button className="social-btn google-btn" type="button">
               <i className="fa-brands fa-google social-icon"></i> <span>Continue with Google</span>
@@ -27,9 +27,9 @@ export const Login = () => {
               <i className="fa-solid fa-phone social-icon"></i> <span>Continue with Phone Number</span>
             </button>
           </div>
-          
+
           <hr className="divider" />
-          
+
           <form>
             <div className="input-group">
               <input type="email" className="form-input" placeholder="Email Address" required />
@@ -44,10 +44,10 @@ export const Login = () => {
               <button type="submit" className="login-btn">Log In</button>
             </Link>
           </form>
-          
+
           <p className="signup-text">Don't have an account? <Link to="/signup">Sign Up</Link></p>
         </div>
       </div>
     </div>
   );
-}
+};
