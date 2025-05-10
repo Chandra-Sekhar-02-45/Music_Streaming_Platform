@@ -9,8 +9,9 @@ export const LandingPage = () => {
     <div>
     <div className='container-fluid'>
       <div className='row'>
-        <div className='d-flex flex-row justify-content-start card_0'>
-
+        <div className='d-flex</div> flex-row justify-content-start card_0'>
+        
+        {/* Library Section */}
         <div className='card_1 col-3 '>
           <div className='library_container'>
 
@@ -161,7 +162,7 @@ export const LandingPage = () => {
           </div>
         </div>
 
-          
+          {/* Music Section */}
           <div className='card_1 col-6  selection'>
             <div className='d-flex flex-row justify-content-start'>
               <button className='selection_btn'>All</button>
@@ -304,7 +305,7 @@ export const LandingPage = () => {
             </div>
           </div>
 
-        
+         {/* Currently Playing Section */}
           <div className='card_1 col-3 currently_playing'>
             <div className='currently_playing_container'>
               <div className='content_wrapper d-flex flex-column justify-content-start align-items-center text-center'>
