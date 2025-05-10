@@ -22,7 +22,7 @@
 }
 
 .progress-bar {
-  width: 100%;
+  width: 335px;
   height: 5px;
   background: #ccc;
   outline: none;
@@ -42,7 +42,7 @@
   appearance: none;
   width: 12px;
   height: 12px;
-  background:  #1db954;
+  background:  white;
   border-radius: 50%;
   cursor: pointer;
   margin-top: -3px;
@@ -51,7 +51,7 @@
 .progress-bar::-moz-range-thumb {
   width: 12px;
   height: 12px;
-  background:  #1db954;
+  background:  #11dc58;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -91,3 +91,4 @@
   align-items: center;
   gap: 20px;
 }
+
