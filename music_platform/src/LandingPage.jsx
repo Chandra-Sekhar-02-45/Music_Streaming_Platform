@@ -1,8 +1,8 @@
 import React from 'react'
 import "./LandingPage.css" 
-import { Library } from './Library';
+import { Library } from './library';
 import { Midland } from './Midland';
-import { Current } from './Current';
+import { Current } from './current';
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 export const LandingPage = () => {
