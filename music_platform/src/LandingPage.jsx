@@ -1,6 +1,6 @@
 import React from 'react'
 import "./LandingPage.css" 
-import { Library } from './library';
+import { Library } from './Library';
 import { Midland } from './Midland';
 import { Current } from './current';
 import { Link } from 'react-router-dom'
