@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: '/your-repo-name/',  // <- CHANGE THIS to your GitHub repo name
   server: {
     historyApiFallback: true,
   },
